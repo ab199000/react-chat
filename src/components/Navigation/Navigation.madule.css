@@ -1,0 +1,12 @@
+ul{
+    list-style: none;
+    align-items: center;
+}
+
+li{
+    margin-bottom: 50px;
+}
+
+nav{
+    line-height: normal;
+}

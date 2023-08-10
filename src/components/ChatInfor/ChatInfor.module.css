@@ -1,0 +1,55 @@
+.header{
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-right: 0px;
+    margin-bottom: 17px;
+}
+
+.blokName{
+    margin-left: 22px;
+
+    align-items: center;
+}
+
+.name{
+    /* width: 85px; */
+    height: 21px;
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+
+    display: flex;
+
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+
+    margin-top: 0px;
+    margin-bottom: 6px;
+
+    color: #0D1C2E;
+}
+
+.status{
+    /* width: 44px; */
+    height: 19px;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: lowercase;
+
+    margin: 0px;
+
+    /* color: #2A8BF2; */
+}
+
+.imgInterlocutor{
+    border-radius: 90px;
+}

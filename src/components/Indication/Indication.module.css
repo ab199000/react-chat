@@ -1,0 +1,26 @@
+.indication{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 90px;
+
+    right: 40px;
+    top: 110px;
+
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+
+    margin: 0px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #FF3366;
+    box-shadow: 4px 4px 15px rgba(198, 27, 74, 0.05),
+    2px 2px 10px rgba(198, 27, 74, 0.1),
+    1px 1px 50px rgba(198, 27, 74, 0.15);
+
+    color: #FFFFFF;
+}

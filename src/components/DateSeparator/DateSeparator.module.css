@@ -1,0 +1,31 @@
+.textSpan{
+    display: flex;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 26px;
+    align-items: center;
+
+    justify-content: center;
+
+    color: rgba(112, 124, 151, 0.7);
+}
+
+.textSpan::before{
+    content: '';
+    position: relative;
+    width: 320px;
+    height: 1px;
+
+    background: rgba(112, 124, 151, 0.15);
+    border-radius: 2px;
+}
+
+.textSpan::after{
+    content: '';
+    position: relative;
+    width: 320px;
+    height: 1px;
+
+    background: rgba(112, 124, 151, 0.15);
+    border-radius: 2px;
+}

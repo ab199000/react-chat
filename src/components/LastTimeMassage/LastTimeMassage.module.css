@@ -1,0 +1,39 @@
+.time{
+    position: relative;
+    min-width: min-content;
+    min-height: min-content;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 26px;
+
+    display: flex;
+    align-items: center;
+
+    margin-top: 5px;
+
+    left: 30%;
+
+    color: rgba(112, 124, 151, 0.7);
+}
+
+.time2{
+    min-width: min-content;
+    min-height: min-content;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 26px;
+
+    display: flex;
+    align-items: center;
+
+    justify-content: flex-end;
+    margin-top: 5px;
+
+    padding-right: 95px;
+    
+
+
+    color: rgba(112, 124, 151, 0.7);
+}

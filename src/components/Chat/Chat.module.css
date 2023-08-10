@@ -1,0 +1,48 @@
+.chatNotActive{
+    position: relative;
+    display: block;
+
+    padding: 30px 38px 40px 40px;
+
+
+    border-radius: 6px;
+    
+    background-color: #ffffff;
+
+    color:#707C97;
+}
+
+.chatNotActive span{
+    color: #2A8BF2;
+}
+
+
+
+
+.chatActive{
+
+    position: relative;
+    display: block;
+
+    padding: 30px 38px 40px 40px;
+
+
+    border-radius: 6px;
+
+    background: linear-gradient(96.78deg, #7CB8F7 0%, #2A8BF2 100%);
+    
+    color:#ffffff;
+}
+
+
+
+
+.blockChat{
+    position: relative;
+
+    padding: 30px 38px 40px 40px;
+
+    margin-bottom: 20px;
+
+    border-radius: 6px;
+}

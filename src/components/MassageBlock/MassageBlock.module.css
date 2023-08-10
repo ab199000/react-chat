@@ -1,0 +1,77 @@
+.MassageBlock{
+position: absolute;
+padding-top: 19px;
+
+    display: flex;
+    
+    align-items: center;
+
+    margin-left: 53px;
+
+    bottom: 30px;
+}
+
+
+.smile{
+    margin-right: 32px;
+    border-radius: 100px;
+}
+
+.btnBlock{
+    width: 40px;
+    height: 40px;
+
+    background: linear-gradient(325.78deg, #2A8BF2 14.76%, #7CB8F7 87.3%);
+    border-radius: 100px;
+}
+
+.inp{
+    width: 574px;
+    height: 50px;
+
+    padding: 0px;
+
+    border: none;
+    outline: none;
+
+    margin-left: 20px;
+}
+
+
+.inp::placeholder{
+
+    min-width: min-content;
+    height: 23px;
+
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+
+    text-transform: capitalize;
+
+    color: rgba(112, 124, 151, 0.5);
+}
+
+.MassageBlock::before{
+    content: '';
+
+    position: absolute;
+
+    top: 0px;
+
+    width: 722px;
+    height: 2px;
+
+
+    background: rgba(112, 124, 151, 0.15);
+    border-radius: 2px;
+}
+
+
+.emoj{
+    position: absolute;
+    right: 10px;
+    bottom: 65px;
+    z-index: 2;
+}

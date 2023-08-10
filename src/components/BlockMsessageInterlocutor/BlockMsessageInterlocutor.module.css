@@ -1,0 +1,30 @@
+.block{
+    display: flex;
+    margin: 30px 0px 0px 53px;
+
+    top: 0px;
+    gap: 24px;
+}
+
+.block2{
+    display: flex;
+    margin: 30px 0px 0px 53px;
+
+    justify-content: flex-end;
+    padding-right: 67px;
+
+    top: 0px;
+    gap: 13px;
+}
+
+.blockMes{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px 15px;
+}
+
+.photo{
+    width: 54px;
+    height: 54px;
+    border-radius: 100px;
+}
